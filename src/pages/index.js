@@ -116,10 +116,10 @@ const IndexPage = () => (
                   <div className="contact">
                       <div className="other">                  
                           <p className="contact__logo"><img className="img logo-bottom" src={croppedLogo} alt="logo of Mesh hair"/></p>
-                          <p className="contact__number">204-891-1026</p>
-                          <p className="contact__address">738 3rd Ave S.W</p>
-                          <p className="contact__city">Calgary, Alberta</p>
-                          <p className="contact__email">purplehair@gmail.com</p>
+                          <p className="contact__number">403-452-0693</p>
+                          <p className="contact__address">260300 Writing Creek Crescent,</p>
+                          <p className="contact__city">Balzac, AB, T4A 0X8</p>
+                          <p className="contact__email">Mesfinkahsai@gmail.com</p>
                       </div>
                       <div className="map-responsive">
                         <iframe title="Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.1209382078573!2d-114.07985168394204!3d51.05085467956264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716fe56a979d3b%3A0x54ee310aac7419fa!2s738+3+Ave+SW%2C+Calgary%2C+AB+T2P+0G7!5e0!3m2!1sen!2sca!4v1557673711628!5m2!1sen!2sca" frameBorder="0" style={{"border":"0", "width":"600", "height":"450"}} allowfullscreen></iframe>
