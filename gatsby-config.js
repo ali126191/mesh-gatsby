@@ -2,8 +2,8 @@ module.exports = {
   pathPrefix: "/salon-gatsby",
 
   siteMetadata: {
-    title: `Purple Hair Salon`,
-    description: `Purple Hair is a salon of creators, educators, learners and enthusiasts`,
+    title: `Mesh Hair Salon`,
+    description: `Mesh Hair is a salon of creators, educators, learners and enthusiasts`,
     siteUrl: `https://www.example.com`, /// Change to make gatsby plugins work
   },
   plugins: [

@@ -8,15 +8,15 @@ import img7 from './images/rez-img-19.jpg';
 import img5 from './images/rez-img-20.jpg';
 import img4 from './images/rez-img-21.jpg';
 import img9 from './images/rez-img-22.jpg';
-import croppedLogo from "./images/croppedAgain.png"
+import croppedLogo from "./images/img16.png"
 
 const IndexPage = () => (
     <>
-      <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `purple hair salon`, `purple hair salon calgary`, `salon in calgary`, `calgary salon`]} />
+      <SEO title="Home" keywords={[`gatsby`, `application`, `react`, `Mesh hair salon`, `Mesh hair salon calgary`, `salon in calgary`, `calgary salon`]} />
         <Helmet>
             <meta charset="UTF-8"/>
             <meta name="descirption" content="Hair salon website"></meta>
-            <title>Purple Hair in Calgary Alberta</title>
+            <title>Mesh Hair Salon in Calgary Alberta</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
             <meta name="keywords" content="hair salon, cutting hair, barber, hair cut"></meta> 
@@ -28,7 +28,7 @@ const IndexPage = () => (
             <header className="header">
                 <nav className="nav">
                     <ul className="nav__ul">
-                        <li className="nav__li"><img className="img croppedLogo" src={croppedLogo} alt="logo of purple hair"/></li>
+                        <li className="nav__li"><img className="img croppedLogo" src={croppedLogo} alt="logo of mesh hair"/></li>
                         <span className="nav--right">
                             <li className="nav__li"><a className="nav__a" href="#services">Services</a></li>
                             <li className="nav__li"><a className="nav__a" href="#portfolio">Portfolio</a></li>
@@ -43,7 +43,7 @@ const IndexPage = () => (
               </div>
               <div className="container">
                 <div className="statement">
-                      <h2 className="h2">Purple Hair is a salon of creators, educators, learners and enthusiasts</h2>
+                      <h2 className="h2">Mesh Hair is a salon of creators, educators, learners and enthusiasts</h2>
                   </div>
 
                 <section className="section" id="services">
@@ -115,7 +115,7 @@ const IndexPage = () => (
                   <h3 className="h3 h3--blue">Contact</h3>
                   <div className="contact">
                       <div className="other">                  
-                          <p className="contact__logo"><img className="img logo-bottom" src={croppedLogo} alt="logo of purple hair"/></p>
+                          <p className="contact__logo"><img className="img logo-bottom" src={croppedLogo} alt="logo of Mesh hair"/></p>
                           <p className="contact__number">204-891-1026</p>
                           <p className="contact__address">738 3rd Ave S.W</p>
                           <p className="contact__city">Calgary, Alberta</p>
